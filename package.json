@@ -1,0 +1,36 @@
+{
+  "name": "react-boilerplate",
+  "version": "1.0.0",
+  "description": "Simple JS utitlity collection ",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve --config ./webpack.config.js --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rasika-Hatwar/react-boilerplate.git"
+  },
+  "author": "Rasika Hatwar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rasika-Hatwar/react-boilerplate/issues"
+  },
+  "homepage": "https://github.com/Rasika-Hatwar/react-boilerplate#readme",
+  "devDependencies": {
+    "@babel/core": "^7.13.14",
+    "@babel/node": "^7.13.13",
+    "@babel/preset-env": "^7.13.12",
+    "@babel/preset-react": "^7.13.13",
+    "babel-preset-react": "^6.24.1",
+    "nodemon": "^2.0.7",
+    "raw-loader": "^4.0.2",
+    "webpack": "^5.30.0",
+    "webpack-cli": "^4.6.0"
+  },
+  "dependencies": {
+    "babel-loader": "^8.2.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
